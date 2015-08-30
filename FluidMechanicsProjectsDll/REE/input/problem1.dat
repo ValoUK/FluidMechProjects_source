@@ -1,0 +1,39 @@
+# gas constant
+287.1
+# heat capacity ratio
+1.4
+# spanwise number of points
+11
+# streamwise number of points
+51
+# blade leading edge index
+20
+# blade trailing edge index
+30
+# loading distribution type at leading edge (0=linear, 1=linear, 2=parabolic)
+2
+# loading distribution type at trailing edge (0=linear, 1=linear, 2=parabolic)
+2
+# loading distribution coefficients at leading edge (a,b,n)
+0 39.3 -1
+# loading distribution coefficients at trailing edge (a,b,n)
+0 117.8 -1
+# inlet hub radius
+0.45
+# inlet shroud radius
+0.5
+# inlet total temperature
+288
+# inlet total pressure
+124027.2
+# total relative presure losses through blade
+0.03
+# rotational speed
+6000.
+# mass flow rate
+30.4
+## advanced parameters 
+# max number of iterations
+200
+# set of tolerances applied in solver (density, RHS, Psi)
+1.e-5 1.e-3 1.e-2
